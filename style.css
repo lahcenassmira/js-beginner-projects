@@ -1,0 +1,78 @@
+body {
+ background-image: url(./img/3d.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+
+button {
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.submitBtn {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.pop-up {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.01);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    visibility: hidden;
+    transform: all 0.5s ease-in-out;
+}
+
+.pop-up-open {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+i {
+
+    position: absolute;
+    top: -15%;
+    left: 45%;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    color: green;
+    font-size: 70px;
+}
+
+.pop-up h2 {
+    margin-top: 30px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.pop-up p {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.pop-up .okBtn {
+    width: 80px;
+    height: 40px;
+}
