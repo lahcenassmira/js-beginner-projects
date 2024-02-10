@@ -10,7 +10,7 @@ Follow these steps to get started with a project:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/lahcenassmira/js-beginner-projects
+   git clone https://github.com/lahcenassmira/js-beginner-projects.git
    
 2. cd js-beginner-projects/project-one
 
