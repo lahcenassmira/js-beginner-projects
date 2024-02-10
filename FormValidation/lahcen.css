@@ -1,0 +1,63 @@
+form {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    
+}
+
+body {
+    background: url(I\ aspire\ to\ de\ ce89119a-b245-466e-b21d-4c79154e5bfa.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+
+
+
+}
+
+label {
+
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(41, 38, 4);
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: 0.3s ease;
+
+}
+
+input {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-top: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: blue;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: rgba(16, 16, 190, 0.616);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: blue;
+}
