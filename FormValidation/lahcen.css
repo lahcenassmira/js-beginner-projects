@@ -60,4 +60,5 @@ button {
 
 button:hover {
     background-color: blue;
+    color:green;
 }
